@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Book Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #dad0d0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: rgb(200, 110, 71);
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #ff6347;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .features, .testimonials {
+            padding: 50px 0;
+            text-align: center;
+            background: white;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .features h2, .testimonials h2 {
+            margin-bottom: 20px;
+        }
+
+        .feature {
+            margin: 20px 0;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1>Unlock Your Potential with Our E-Book</h1>
+            <p>Get exclusive insights and strategies to achieve your goals.</p>
+            <a href="#download" class="btn">Download Now</a>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature">
+                <h3>Easy to Read</h3>
+                <p>Designed for easy reading on any device.</p>
+            </div>
+            <div class="feature">
+                <h3>Expert Insights</h3>
+                <p>Gain insights from industry experts and thought leaders.</p>
+            </div>
+            <div class="feature">
+                <h3>Practical Tips</h3>
+                <p>Implement actionable strategies immediately.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Readers Are Saying</h2>
+            <blockquote>
+                <p>"This e-book changed my life! Highly recommend it!"</p>
+                <cite>- Jane Doe</cite>
+            </blockquote>
+            <blockquote>
+                <p>"A must-read for anyone looking to improve their skills."</p>
+                <cite>- John Smith</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h2>Ready to Transform Your Life?</h2>
+            <a href="#download" class="btn">Download Your E-Book</a>
+        </div>
+    </footer>
+</body>
+</html>
